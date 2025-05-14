@@ -1,0 +1,105 @@
+{
+  "top_candidates": [
+    {
+      "rank": 1,
+      "name": "Lucas Johnson",
+      "resume_id": "R158",
+      "category": "Blockchain",
+      "experience_years": 0.33,
+      "scores": {
+        "similarity": 0.04,
+        "skill_match": 80.0,
+        "combined": 0.8
+      },
+      "matching_skills": [
+        "node.js",
+        "CSS",
+        "JavaScript",
+        "HTML",
+        "SQL"
+      ],
+      "experience_skill_points": 1
+    },
+    {
+      "rank": 2,
+      "name": "Ananya Patel",
+      "resume_id": "R104",
+      "category": "Python Developer",
+      "experience_years": 8.5,
+      "scores": {
+        "similarity": 0.02,
+        "skill_match": 80.0,
+        "combined": 0.69,
+        "experience_skill": 0.5
+      },
+      "matching_skills": [
+        "MongoDB",
+        "HTML",
+        "CSS",
+        "SQL"
+      ],
+      "experience_skill_points": 2
+    },
+    {
+      "rank": 3,
+      "name": "Emily Clark",
+      "resume_id": "R148",
+      "category": "DotNet Developer",
+      "experience_years": 3.0,
+      "scores": {
+        "similarity": 0.03,
+        "skill_match": 80.0,
+        "combined": 0.67
+      },
+      "matching_skills": [
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "SQL"
+      ],
+      "experience_skill_points": 1
+    },
+    {
+      "rank": 4,
+      "name": "Michael Smith",
+      "resume_id": "R153",
+      "category": "DotNet Developer",
+      "experience_years": 1.0,
+      "scores": {
+        "similarity": 0.03,
+        "skill_match": 80.0,
+        "combined": 0.66
+      },
+      "matching_skills": [
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "SQL"
+      ],
+      "experience_skill_points": 1
+    },
+    {
+      "rank": 5,
+      "name": "James Brown",
+      "resume_id": "R072",
+      "category": "Java Developer",
+      "experience_years": 2.0,
+      "scores": {
+        "similarity": 0.02,
+        "skill_match": 80.0,
+        "combined": 0.64
+      },
+      "matching_skills": [
+        "MongoDB",
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "experience_skill_points": 1
+    }
+  ],
+  "visualizations": {
+    "score_breakdown": "combined_ranking_breakdown.png",
+    "top_skills": "top_skills.png"
+  }
+}

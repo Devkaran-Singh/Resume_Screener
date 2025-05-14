@@ -1,0 +1,140 @@
+{
+    "technical_skills": [
+      "Python", "R", "Java", "C++", "C#", "JavaScript", "TypeScript", "SQL", "Scala",
+      "PHP", "Go", "Ruby", "Swift", "Kotlin", "Perl", "Rust", "Dart", "MATLAB", "Shell",
+      "Objective-C", "Assembly", "Groovy", "Lua", "PowerShell", "VBA", "Fortran", "Julia", "Haskell", "Clojure",
+      
+      "Machine Learning", "Deep Learning", "NLP", "Natural Language Processing",
+      "TensorFlow", "PyTorch", "Keras", "scikit-learn", "XGBoost", "LightGBM",
+      "BERT", "GPT", "Transformers", "Computer Vision", "OpenCV", "Reinforcement Learning", 
+      "LSTM", "CNN", "RNN", "Hugging Face", "spaCy", "NLTK", "Caffe", "MXNet", 
+      "Time Series Analysis", "A/B Testing",
+      
+      "pandas", "NumPy", "SciPy", "Matplotlib", "Seaborn", "Tableau", "Power BI",
+      "Hadoop", "Spark", "Kafka", "BigQuery", "Redshift", "Snowflake", "ETL",
+      "Databricks", "Airflow", "Luigi", "Dask", "Hive", "Presto", "Flink", "PySpark",
+      "Plotly", "D3.js", "DataStudio", "Looker", "Qlik", "Informatica", "Talend",
+      
+      "AWS", "GCP", "Azure", "Docker", "Kubernetes", "Git", "CI/CD",
+      "Oracle Cloud", "IBM Cloud", "Terraform", "Ansible", "Jenkins", "GitHub Actions", 
+      "Travis CI", "CircleCI", "Prometheus", "Grafana", "ELK Stack", "Vagrant", 
+      "CloudFormation", "Puppet", "Chef", "Serverless", "Lambda", "Heroku",
+      
+      "PostgreSQL", "MySQL", "MongoDB", "Redis", "GraphQL", "NoSQL",
+      "HTML", "CSS", "React", "Angular", "Node.js", "Django", "Flask",
+      "Oracle", "SQL Server", "SQLite", "Firebase", "Elasticsearch", "Cassandra", "Neo4j", 
+      "CouchDB", "DynamoDB", "Vue.js", "Express.js", "Spring Boot", "Laravel", "Symfony", 
+      "FastAPI", "Rails", "jQuery", "Bootstrap", "Sass", "Less", "Next.js", "Gatsby", 
+      "Redux", "Angular.js", "WebSockets",
+      
+      "iOS", "Android", "React Native", "Flutter", "Xamarin", "Mobile Development",
+      
+      "Cybersecurity", "Penetration Testing", "Cryptography", "OAuth", "JWT", "OWASP", "SSL/TLS",
+      
+      "Selenium", "JUnit", "TestNG", "Jest", "Cypress", "Pytest", "Mocha", "Jasmine",
+      
+      "Data Warehousing", "Data Modeling", "Data Pipeline", "Data Integration",
+      
+      "Scrum", "Kanban", "Agile", "JIRA", "Confluence", "Project Management", "Product Management"
+    ],
+    
+    "skill_variants": {
+      "javascript": ["js"], 
+      "typescript": ["ts"], 
+      "python": ["py"],
+      "natural language processing": ["nlp"], 
+      "machine learning": ["ml"],
+      "deep learning": ["dl"], 
+      "artificial intelligence": ["ai"],
+      "tensorflow": ["tf"], 
+      "node.js": ["node"], 
+      "aws": ["amazon web services"], 
+      "gcp": ["google cloud platform"], 
+      "azure": ["microsoft azure"], 
+      "scikit-learn": ["sklearn", "scikit"],
+      "postgresql": ["postgres"], 
+      "mongodb": ["mongo"],
+      "java": ["j2ee", "jee"],
+      "css": ["css3"],
+      "html": ["html5"],
+      "react": ["reactjs", "react.js"],
+      "angular": ["angularjs", "angular.js"],
+      "vue.js": ["vuejs", "vue"],
+      "continuous integration/continuous deployment": ["ci/cd"],
+      "power bi": ["powerbi"],
+      "microsoft azure": ["ms azure"],
+      "sql server": ["mssql", "microsoft sql server"],
+      "github actions": ["gh actions"],
+      "reinforcement learning": ["rl"],
+      "computer vision": ["cv"],
+      "convolutional neural network": ["cnn"],
+      "recurrent neural network": ["rnn"],
+      "long short-term memory": ["lstm"]
+    },
+    
+    "skill_groups": {
+      "Programming": [
+        "Python", "R", "Java", "C++", "C#", "JavaScript", "TypeScript", "Scala", "Go", "Rust",
+        "Objective-C", "Assembly", "Groovy", "Lua", "PowerShell", "VBA", "Fortran", "Julia", 
+        "Haskell", "Clojure", "SQL", "PHP", "Ruby", "Perl", "Dart", "MATLAB", "Shell"
+      ],
+      
+      "ML/AI": [
+        "Machine Learning", "Deep Learning", "NLP", "TensorFlow", "PyTorch", "Keras", "scikit-learn",
+        "BERT", "GPT", "Transformers", "Computer Vision", "OpenCV", "Reinforcement Learning", 
+        "LSTM", "CNN", "RNN", "Hugging Face", "spaCy", "NLTK", "Natural Language Processing",
+        "XGBoost", "LightGBM", "Caffe", "MXNet", "Time Series Analysis", "A/B Testing"
+      ],
+      
+      "Data Tools": [
+        "pandas", "NumPy", "Matplotlib", "Seaborn", "Tableau", "Power BI", "SciPy",
+        "Plotly", "D3.js", "DataStudio", "Looker", "Qlik", "Informatica", "Talend"
+      ],
+      
+      "Cloud/DevOps": [
+        "AWS", "GCP", "Azure", "Docker", "Kubernetes", "Git", "CI/CD",
+        "Oracle Cloud", "IBM Cloud", "Terraform", "Ansible", "Jenkins", "GitHub Actions", 
+        "Travis CI", "CircleCI", "Prometheus", "Grafana", "ELK Stack", "Vagrant", 
+        "CloudFormation", "Puppet", "Chef", "Serverless", "Lambda", "Heroku"
+      ],
+      
+      "Big Data": [
+        "Hadoop", "Spark", "Kafka", "BigQuery", "Redshift", "Snowflake", "ETL",
+        "Databricks", "Airflow", "Hive", "Presto", "Flink", "PySpark", "Luigi", "Dask"
+      ],
+      
+      "Databases": [
+        "PostgreSQL", "MySQL", "MongoDB", "Redis", "GraphQL", "NoSQL",
+        "Oracle", "SQL Server", "SQLite", "Firebase", "Elasticsearch", "Cassandra", "Neo4j", 
+        "CouchDB", "DynamoDB"
+      ],
+      
+      "Web": [
+        "HTML", "CSS", "React", "Angular", "Node.js", "Django", "Flask",
+        "Vue.js", "Express.js", "Spring Boot", "Laravel", "FastAPI", "Bootstrap", "jQuery", 
+        "Next.js", "Redux", "Symfony", "Rails", "Sass", "Less", "Gatsby", "Angular.js", "WebSockets"
+      ],
+      
+      "Mobile Development": [
+        "iOS", "Android", "Swift", "Kotlin", "React Native", "Flutter", "Xamarin",
+        "Mobile Development", "Objective-C"
+      ],
+      
+      "Security": [
+        "Cybersecurity", "Penetration Testing", "Cryptography", "OAuth", "JWT", "OWASP", "SSL/TLS"
+      ],
+      
+      "Testing": [
+        "Selenium", "JUnit", "TestNG", "Jest", "Cypress", "Pytest", "Mocha", "Jasmine"
+      ],
+      
+      "Data Engineering": [
+        "ETL", "Data Warehousing", "Data Modeling", "Data Pipeline", "Data Integration",
+        "Airflow", "Luigi", "Informatica", "Talend"
+      ],
+      
+      "Agile/PM": [
+        "Scrum", "Kanban", "Agile", "JIRA", "Confluence", "Project Management", "Product Management"
+      ]
+    }
+  }
