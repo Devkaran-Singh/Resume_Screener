@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User</title>
+    <link rel="stylesheet" href="./output.css" />
+  </head>
+  <body
+    class="h-lvh flex justify-center items-center flex-col font-sans bg-gray-100"
+  >
+    <h1 class="text-4xl font-bold p-3">AI-Based Resume Screening</h1>
+    <p class="text-xl">Upload resumes for our recruiter</p>
+    <form
+      action="/upload-resume"
+      method="POST"
+      enctype="multipart/form-data"
+      class="border-1 m-7 p-6 flex flex-col w-lvh rounded-xl shadow-xl bg-white border-white"
+    >
+      <p class="text-xl text-gray-700 font-medium pl-3">Upload Resume (PDF)</p>
+      <input
+        type="text"
+        name="name"
+        placeholder="Enter your full name"
+        class="rounded-sm m-3 text-md border-1 border-gray-200 font-semibold text-gray-700 py-2 px-4 outline-0"
+      />
+      <select
+        name="category"
+        class="rounded-sm m-3 text-md border-1 border-gray-200 font-semibold text-gray-700 py-2 px-4 outline-0 hover:cursor-pointer"
+      >
+        <option value="">-- Choose Your Category --</option>
+        <option value="Automation Testing">Automation Testing</option>
+        <option value="Blockchain">Blockchain</option>
+        <option value="Data Science">Data Science</option>
+        <option value="Database">Database</option>
+        <option value="DevOps Engineer">DevOps Engineer</option>
+        <option value="DotNet Developer">DotNet Developer</option>
+        <option value="ETL Developer">ETL Developer</option>
+        <option value="Hadoop">Hadoop</option>
+        <option value="Java Developer">Java Developer</option>
+        <option value="Network Security Engineer">
+          Network Security Engineer
+        </option>
+        <option value="Python Developer">Python Developer</option>
+      </select>
+      <input
+        type="file"
+        name="resume"
+        accept=".pdf"
+        class="rounded-sm m-3 text-md border-1 border-gray-200 file:mr-4 py-2 px-4 file:border-0 file:font-semibold file:text-gray-700 hover:cursor-pointer"
+      />
+      <button
+        id="submitButton"
+        type="submit"
+        class="border-2 p-3 rounded-b-sm m-3 text-white text-xl bg-blue-600 font-medium hover:bg-blue-700 hover:cursor-pointer transition duration-150 active:opacity-70"
+      >
+        Submit Resume
+      </button>
+    </form>
+    <script src="user_script.js"></script>
+  </body>
+</html>

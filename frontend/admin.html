@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin</title>
+    <link rel="stylesheet" href="./output.css" />
+  </head>
+  <body class="flex flex-col justify-center items-center font-sans bg-gray-100">
+    <h1 class="text-4xl font-bold p-3 text-gray-800">
+      AI Resume Screening Dashboard
+    </h1>
+    <div
+      class="border-1 m-7 p-6 w-lvh rounded-xl shadow-xl bg-white border-white"
+    >
+      <div id="job_description" class="flex flex-col">
+        <h1 class="text-xl text-gray-700 font-medium mb-2 ml-0.5">
+          Job Description
+        </h1>
+        <textarea
+          id="job_description_text"
+          placeholder="Enter or update job description..."
+          class="p-3 border-1 border-white shadow-md outline-0 mt-3 text-gray-700"
+          rows="5"
+        ></textarea>
+        <button
+          id="job_button"
+          type="submit"
+          class="border-2 p-3 rounded-md mt-4 text-white text-xl w-70 bg-blue-600 font-medium hover:bg-blue-700 hover:cursor-pointer transition duration-150 active:opacity-70"
+        >
+          Change job description
+        </button>
+      </div>
+
+      <div id="rank_skills" class="hidden">
+        <h1 class="text-xl text-gray-700 font-medium mt-8">
+          Rank the above mentioned skills based on your preference
+        </h1>
+        <div
+          id="skills_set"
+          class="max-w-2xl mx-auto bg-white p-8 rounded-xl shadow-lg"
+        >
+          <div class="hidden" id="skills">
+            <p class="text-lg font-medium text-gray-700 mb-2">HTML</p>
+            <div class="flex gap-4">
+              <label
+                ><input
+                  type="radio"
+                  name="html"
+                  value="1"
+                  class="text-blue-600 hover:cursor-pointer"
+                />
+                1</label
+              >
+              <label
+                ><input
+                  type="radio"
+                  name="html"
+                  value="2"
+                  class="text-blue-600 hover:cursor-pointer"
+                />
+                2</label
+              >
+              <label
+                ><input
+                  type="radio"
+                  name="html"
+                  value="3"
+                  class="text-blue-600 hover:cursor-pointer"
+                />
+                3</label
+              >
+              <label
+                ><input
+                  type="radio"
+                  name="html"
+                  value="4"
+                  class="text-blue-600 hover:cursor-pointer"
+                />
+                4</label
+              >
+              <label
+                ><input
+                  type="radio"
+                  name="html"
+                  value="5"
+                  class="text-blue-600 hover:cursor-pointer"
+                />
+                5</label
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="shortlist" class="hidden">
+        <h1 class="text-xl text-gray-700 font-medium mt-8">
+          Shortlist Candidate
+        </h1>
+        <input
+          id="shortlist-input"
+          type="text"
+          placeholder="Enter number of candidates to shortlist"
+          class="p-3 border-1 border-white shadow-md outline-0 mt-3 text-gray-700"
+        />
+        <div class="flex justify-center items-center w-auto">
+          <button
+            type="submit"
+            id="shortlist-button"
+            class="border-2 p-3 rounded-md mt-4 text-white text-xl w-50 bg-blue-600 font-medium hover:bg-blue-700 hover:cursor-pointer transition duration-150 active:opacity-70"
+          >
+            Shortlist
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div id="list" class="flex-wrap justify-center items-center hidden">
+      <div
+        id="candidate-list"
+        class="bg-white m-3 p-4 h-[380px] w-[380px] border-3 border-white shadow-lg outline-0 mt-3 text-gray-700 rounded-2xl hidden"
+      >
+        <h3 class="font-semibold text-black text-xl">
+          Rank: <span class="rank"></span>
+        </h3>
+        <h3 class="font-semibold text-black text-xl">
+          Name: <span class="name"></span>
+        </h3>
+        <h3 class="font-semibold text-black text-xl">
+          Category: <span class="category"></span>
+        </h3>
+        <h3 class="font-semibold text-black text-xl">
+          Matching Skills: <span class="skills"></span>
+        </h3>
+        <h1 class="font-semibold text-black text-xl">Scores:</h1>
+        <h3 class="font-semibold text-black text-xl">
+          - Similarity: <span class="s1"></span>
+        </h3>
+        <h3 class="font-semibold text-black text-xl">
+          - Skill Match: <span class="s2"></span>
+        </h3>
+        <h3 class="font-semibold text-black text-xl">
+          - Combined: <span class="s3"></span>
+        </h3>
+        <h3 class="font-semibold text-black text-xl">
+          - Experience Year: <span class="s4"></span>
+        </h3>
+        <h3 class="font-semibold text-black text-xl">
+          - Experience Skill Points: <span class="s5"></span>
+        </h3>
+      </div>
+    </div>
+
+    <div
+      id="visualizations"
+      class="hidden flex-col gap-6 justify-center items-start p-6"
+    >
+      <img
+        id="score_breakdown"
+        class="m-3 border-4 border-gray-400 rounded-lg shadow-lg w-[500px] h-auto transition-transform duration-300 hover:scale-105 hover:shadow-2xl hover:border-blue-500"
+        alt="Score Breakdown"
+      />
+      <img
+        id="top_skills"
+        class="m-3 border-4 border-gray-400 rounded-lg shadow-lg w-[500px] h-auto transition-transform duration-300 hover:scale-105 hover:shadow-2xl hover:border-blue-500"
+        alt="Top Skills"
+      />
+    </div>
+
+    <script src="admin_script.js"></script>
+  </body>
+</html>
